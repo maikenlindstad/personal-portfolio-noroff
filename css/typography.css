@@ -38,3 +38,8 @@ h2 {
 h3 {
   font-size: 1.4rem;
 }
+
+label i {
+  font-size: 1.6rem;
+  color: #db9090;
+}

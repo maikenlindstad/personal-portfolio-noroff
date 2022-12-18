@@ -16,6 +16,7 @@ body {
   margin: 150px auto;
   box-shadow: 10px 10px 100px#794e4e9a;
   border-radius: 10px;
+  max-width: 1300px;
 }
 
 header {
