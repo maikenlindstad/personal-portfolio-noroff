@@ -1,0 +1,50 @@
+li a {
+  text-decoration: none;
+  color: #303030;
+}
+
+li a:hover,
+.active {
+  color: #c05e5e;
+}
+
+p a {
+  color: #c05e5e;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  font-size: 1.2rem;
+}
+
+button,
+.button {
+  padding: 5px 10px;
+  background-color: #ffbd72;
+  background-color: #dcdcdc;
+  border: none;
+  border-radius: 5px 0;
+  cursor: pointer;
+  /* font-size: 1rem; */
+}
+
+.card button,
+.card .button {
+  font-size: 1rem;
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+}
+
+@media only screen and (max-width: 398px) {
+  .button__section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: flex-end; */
+  }
+}

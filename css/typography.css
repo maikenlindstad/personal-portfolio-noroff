@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+li a,
+button,
+h1,
+h2,
+h3,
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+p,
+li {
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  font-size: 1.2rem;
+}
+
+.pinpoint {
+  font-size: 1.2rem;
+}
+
+h1 {
+  padding: 0 10px;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  padding-top: 20px;
+  border-bottom: #c05e5e solid 2px;
+  width: 150px;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
