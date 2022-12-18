@@ -106,9 +106,9 @@ footer ul {
     margin: 100px auto;
   }
 
-  nav {
+  /* nav {
     display: none;
-  }
+  } */
 
   .welcomeSection {
     flex-direction: column-reverse;

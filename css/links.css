@@ -1,3 +1,8 @@
+label,
+#hamburgermenu {
+  display: none;
+}
+
 li a {
   text-decoration: none;
   color: #303030;
@@ -38,6 +43,52 @@ button,
   background-color: #f1f1f1;
   color: black;
   text-align: center;
+}
+
+@media only screen and (max-width: 935px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    display: none;
+  }
+
+  label {
+    display: block;
+    /* position: absolute; */
+  }
+
+  #hamburgermenu:checked ~ nav {
+    display: block;
+  }
+
+  li a:checked ~ nav {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    transition: ease-in-out 1s;
+  }
+
+  nav ul {
+    padding: 100px;
+    height: 100vh;
+    background: rgb(245, 240, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .navButton:target ~ nav {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 398px) {
